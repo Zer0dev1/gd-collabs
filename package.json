@@ -1,0 +1,27 @@
+{
+  "name": "gdcollabs-site",
+  "version": "1.0.0",
+  "description": "Website for gdcollabs.site using Cloudflare Workers and D1",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply gdcollabs-db --remote",
+    "db:migrate:backup": "wrangler d1 migrations apply gdcollabs-db-backup --remote"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "d1"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}

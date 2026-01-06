@@ -1,0 +1,29 @@
+name = "gdcollabs-site"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[site]
+bucket = "./public"
+
+# Main database
+[[d1_databases]]
+binding = "DB"
+database_name = "gdcollabs-db"
+database_id = "01be75ad-7b51-462e-adec-d470ae25a169"
+
+[[d1_databases]]
+binding = "DB_BACKUP"
+database_name = "gdcollabs-db-backup"
+database_id = "1c0fcc1b-93fb-45ac-a47b-21990a5d3de3"
+
+[vars]
+SITE_NAME = "gdcollabs.site"
+ENVIRONMENT = "production"
+
+# secrets must be set in cloudflare dashboard:
+# - DISCORD_CLIENT_ID
+# - DISCORD_CLIENT_SECRET
+# - TURNSTILE_SECRET_KEY (optional)
+# - ALLOWED_ORIGIN (optional)
+
