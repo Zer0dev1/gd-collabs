@@ -1,6 +1,6 @@
 # GD Collabs
-
-yo this is my geometry dash megacollab site. basically lets people create collabs, join parts, chat in forums, all that stuff.
+(THE REST OF THE REPO WILL BE ADDED SOON BE PATIENT)
+this is my geometry dash megacollab site. basically lets people create collabs, join parts, chat in forums, all that stuff.
 
 ## what it does
 
@@ -48,3 +48,4 @@ thats pretty much it. the code is pretty straightforward, just look around if yo
 - input sanitization
 
 thats about it. if you have questions just look at the code, its pretty self explanatory.
+
